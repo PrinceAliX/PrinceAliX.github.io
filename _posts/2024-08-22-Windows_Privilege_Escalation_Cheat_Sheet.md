@@ -594,7 +594,7 @@ C:\htb> net group "Domain Admins" /dom
 
 #### Using Mimilib.dll
 
-As detailed in this [post](http://www.labofapenetrationtester.com/2017/05/abusing-dnsadmins-privilege-for-escalation-in-active-directory.html), we could also utilize [mimilib.dll](https://github.com/gentilkiwi/mimikatz/tree/master/mimilib) from the creator of the `Mimikatz` tool to gain command execution by modifying the [kdns.c](https://github.com/gentilkiwi/mimikatz/blob/master/mimilib/kdns.c) file to execute a reverse shell one-liner or another command of our choosing.
+We could also utilize [mimilib.dll](https://github.com/gentilkiwi/mimikatz/tree/master/mimilib) from the creator of the `Mimikatz` tool to gain command execution by modifying the [kdns.c](https://github.com/gentilkiwi/mimikatz/blob/master/mimilib/kdns.c) file to execute a reverse shell one-liner or another command of our choosing.
 
 
 #### WPAD Record
@@ -647,7 +647,7 @@ The operation completed successfully.
 
 #### Verify Driver is not Loaded
 
-Using Nirsoft's [DriverView.exe](http://www.nirsoft.net/utils/driverview.html), we can verify that the Capcom.sys driver is not loaded.
+Using Nirsoft's DriverView.exe `http://www.nirsoft.net/utils/driverview.html`, we can verify that the Capcom.sys driver is not loaded.
 
 ```powershell
 PS C:\htb> .\DriverView.exe /stext drivers.txt
