@@ -3,7 +3,7 @@ title: Windows Privilege Escalation Cheat Sheet
 description: Everything to know about Privilege Escalation in a Windows Enviorment
 date: 2024-08-22 11:33:00 +0800
 blogs: [Active directory, Windows]
-tags: [privilege escalation, windows, active Directory]
+categories: [privilege escalation, windows, active Directory]
 pin: true
 math: true
 mermaid: true
